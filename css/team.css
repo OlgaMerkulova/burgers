@@ -1,0 +1,83 @@
+.team {
+  background: url("../img/background/team.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.section__team {
+  width: 50%;
+  float: right;
+  background: #2f3234;
+  opacity: .93;
+  padding-left: 10%;
+  padding-top: 5%;
+  height: 100%;
+}
+
+.section__team .section__title {
+  margin-bottom: 7%;
+}
+
+.team-list__item {
+  margin-bottom: 40px;
+}
+
+.team-list__head {
+  color: #fff;
+  font-family: 'gagalinregular';
+  font-lsize: 14px;
+  position: relative;
+}
+
+.team-list__head::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -19px;
+  top: 8px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-top: 7px solid #f9b43b;
+  transform: rotate(0deg);
+  transition: .4s;
+}
+
+.team-list__item.active .team-list__head::before {
+  transform: rotate(180deg);
+  top: 0;
+}
+
+.team-list__content {
+  overflow: hidden;
+  height: 0;
+  margin-top: 20px;
+  transition: .4s;
+}
+
+.team-list__item.active .team-list__content {
+  height: 110px;
+}
+
+.team-list__item.active .team-list__head {
+  color: #f9b33b;
+}
+
+.team-list__pic {
+  float: left;
+  width: 30%;
+}
+.team-list__img {
+
+  width: 100px;
+  height: 100px;
+  background: url("../img/content/teammate.jpg") center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.team-list__text {
+  width: 60%;
+  float: left;
+  font-family: 'ubuntulight';
+  font-size: 14px;
+  color: white;
+}

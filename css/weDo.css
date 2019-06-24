@@ -1,0 +1,40 @@
+.weDo {
+  position: relative;
+  background: url("../img/background/weDo.jpg") center center no-repeat;
+  background-size: cover;
+}
+.weDo .container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+
+.weDo__left {
+  width: 50%;
+  float: left;
+}
+.weDo__right {
+  width: 50%;
+  float: left;
+  padding-top: 120px;
+}
+.title__text {
+  font-family: 'lifehackmedium';
+  font-size: 65px;
+  color: white;
+  text-transform: lowercase;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -15px;
+  height: 40px;
+  transition: .3s;
+}
+.down-arrow:hover {
+  bottom: 35px;
+}

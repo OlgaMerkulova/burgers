@@ -1,0 +1,25 @@
+.theBest {
+  position: relative;
+  background: url("../img/background/best.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.section__title--theBest {
+  color: #2f3234;;
+  margin-bottom: 70px;
+}
+
+.best-list__item {
+  width: 33.3%;
+  float: left;
+  padding: 30px;
+}
+.best-list__item--head {
+  font-size: 24px;
+  font-family: 'lifehackmedium';
+  margin-bottom: 15px;
+}
+.best-list__item--text {
+  font-size: 14px;
+  font-family: 'ubuntulight';
+}

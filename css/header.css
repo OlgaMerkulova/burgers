@@ -1,0 +1,71 @@
+.container-first {
+  width: 940px;
+  margin: 0 auto;
+}
+.main-header {
+  padding-top: 15px;
+}
+.header__logo {
+  width: 25%;
+  float: left;
+}
+
+.header__menu {
+  width: 75%;
+  float: right;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.nav-list {
+  width: 83%;
+  float: left;
+}
+
+.nav-list__button {
+  width: 15%;
+  margin-left: 2%;
+  float: right;
+  background: #e45028;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'ubuntumedium';
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: -5px;
+}
+.nav-list__button:hover {
+  background: #c1401e;
+}
+
+.nav-list__item {
+  margin-right: 20px;
+  float: left;
+}
+
+.nav-list__item:after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: white;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.nav-list__item:last-child::after {
+  width: 0;
+  height: 0;
+}
+
+.nav-list__link {
+  font-family: 'ubuntumedium';
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-list__link:hover {
+  text-decoration: underline;
+}
